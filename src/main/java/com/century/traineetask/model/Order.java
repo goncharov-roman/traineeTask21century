@@ -13,6 +13,9 @@ public class Order {
     private String date;
     private String address;
 
+    //@OneToMany(mappedBy = "order")
+    //Set<OrderLine> orderLines;
+
     public Order() {
 
     }

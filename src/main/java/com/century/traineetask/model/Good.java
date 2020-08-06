@@ -12,6 +12,9 @@ public class Good {
     private String name;
     private Double price;
 
+    //@OneToMany(mappedBy = "good")
+    //Set<OrderLine> orderLines;
+
     public Good() {
 
     }
